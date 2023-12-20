@@ -1,0 +1,30 @@
+
+.nav-bar {
+    background-color: rgb(255, 169, 156);
+    min-height: 14%;
+}
+
+.nav-text {
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin-left: 20px;
+    margin-top: -1px;
+    display: flex;
+    align-items: center; 
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    margin-left: 10px; 
+    align-items: center;
+}
+
+nav .nav-bar{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: rgb(254,144,127);
+    width: 100px;
+}
